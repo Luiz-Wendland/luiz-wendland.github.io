@@ -95,6 +95,9 @@ li:hover{
     transition: all 0.5s;
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
+}
+#youtube{
+    padding-top: 30px;
 } 
 section{
     padding: 20px;
