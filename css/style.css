@@ -109,6 +109,18 @@ section hr{
 h4 a{
     color: black;
 }
+#botao_ods{
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 6px 20px 6px 20px;
+    border-radius: 5px;
+}
+#botao_ods:hover{
+    transition: all 0.5s;
+    background-color: #555657;
+}
 .imgeco{
     width: 90%;
     height: 20%;
@@ -155,15 +167,8 @@ footer a{
         display: none;
     }
     #imagem_fundo {
-        background: url(../img/fundo.jpg);
-        height: 100%;
-        text-align: center;
-        background-size: cover;
         overflow: auto; 
         background-position: center;
-    }
-    .destaque{
-        background-color: #f7f7f7;
     }
     .imgeco {
         width: 70%; 
@@ -183,10 +188,6 @@ footer a{
         text-align: center;
         width: 100%;
     }
-    h1{
-        margin: 0px;
-        letter-spacing: -2px;
-    }
     h2, h3{
         font-size: 22px;
     }
@@ -197,34 +198,15 @@ footer a{
         display: none;
     }
     #imagem_fundo {
-        background: url(../img/fundo.jpg);
-        height: 100%;
-        text-align: center;
-        background-size: cover;
         overflow: auto; 
         background-position: center;
     }
     #titulo {
-        color: white;
         padding: 0px;
         margin-top: 30%;
         font-size: 50px;
-        line-height: 0.6;
-        text-shadow: 1px 1px black;
-    }
-    #subtitulo {
-        color: white;
-        margin-left: 20%;
-        margin-right: 20%;
-        border-top: 3px solid white;
-        text-shadow: 1px 1px black;
     }
     #acao {
-        color: white;
-        border: 2px white solid;
-        padding: 10px 20px 10px 20px;
-        border-radius: 4px;
-        text-decoration: none;
         font-size: 16px;
     }
     .imgeco {
@@ -245,10 +227,6 @@ footer a{
         text-align: center;
         width: 100%;
     }
-    h1{
-        margin: 0px;
-        letter-spacing: -2px;
-    }
     h2, h3{
         font-size: 15px;
     }
@@ -262,35 +240,19 @@ footer a{
         display: none;
     }
     #imagem_fundo {
-        background: url(../img/fundo.jpg);
-        height: 100%;
-        text-align: center;
-        background-size: cover;
         overflow: auto; 
         background-position: center;
     }
     #titulo {
-        color: white;
         padding: 0px;
         margin-top: 45%;
         font-size: 35px;
-        line-height: 0.6;
-        text-shadow: 1px 1px black;
-    }
-    #subtitulo {
-        color: white;
-        margin-left: 20%;
-        margin-right: 20%;
-        border-top: 3px solid white;
-        text-shadow: 1px 1px black;
     }
     #acao {
-        color: white;
-        border: 2px white solid;
-        padding: 10px 20px 10px 20px;
-        border-radius: 4px;
-        text-decoration: none;
         font-size: 12px;
+    }
+    #botao_ods{
+        font-size: 14px;
     }
     .imgeco {
         width: 70%; 
